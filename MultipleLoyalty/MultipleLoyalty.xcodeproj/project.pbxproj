@@ -13,6 +13,18 @@
 		CF411FC02982AAD600050646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FBE2982AAD600050646 /* Main.storyboard */; };
 		CF411FC22982AAD700050646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC12982AAD700050646 /* Assets.xcassets */; };
 		CF411FC52982AAD700050646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC32982AAD700050646 /* LaunchScreen.storyboard */; };
+		CF411FCE2982AD1400050646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FBC2982AAD600050646 /* ViewController.swift */; };
+		CF411FCF2982AD1400050646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FB82982AAD600050646 /* AppDelegate.swift */; };
+		CF411FD02982AD1400050646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FBA2982AAD600050646 /* SceneDelegate.swift */; };
+		CF411FD32982AD1400050646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC32982AAD700050646 /* LaunchScreen.storyboard */; };
+		CF411FD42982AD1400050646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC12982AAD700050646 /* Assets.xcassets */; };
+		CF411FD52982AD1400050646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FBE2982AAD600050646 /* Main.storyboard */; };
+		CF411FDD2982AD1F00050646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FBC2982AAD600050646 /* ViewController.swift */; };
+		CF411FDE2982AD1F00050646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FB82982AAD600050646 /* AppDelegate.swift */; };
+		CF411FDF2982AD1F00050646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF411FBA2982AAD600050646 /* SceneDelegate.swift */; };
+		CF411FE22982AD1F00050646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC32982AAD700050646 /* LaunchScreen.storyboard */; };
+		CF411FE32982AD1F00050646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF411FC12982AAD700050646 /* Assets.xcassets */; };
+		CF411FE42982AD1F00050646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF411FBE2982AAD600050646 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +36,26 @@
 		CF411FC12982AAD700050646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF411FC42982AAD700050646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF411FC62982AAD700050646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF411FD92982AD1400050646 /* Sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF411FE82982AD1F00050646 /* Sample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CF411FB22982AAD600050646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF411FD12982AD1400050646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF411FE02982AD1F00050646 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CF411FB52982AAD600050646 /* MultipleLoyalty.app */,
+				CF411FD92982AD1400050646 /* Sample1.app */,
+				CF411FE82982AD1F00050646 /* Sample2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +117,40 @@
 			productReference = CF411FB52982AAD600050646 /* MultipleLoyalty.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CF411FCC2982AD1400050646 /* Sample1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF411FD62982AD1400050646 /* Build configuration list for PBXNativeTarget "Sample1" */;
+			buildPhases = (
+				CF411FCD2982AD1400050646 /* Sources */,
+				CF411FD12982AD1400050646 /* Frameworks */,
+				CF411FD22982AD1400050646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample1;
+			productName = MultipleLoyalty;
+			productReference = CF411FD92982AD1400050646 /* Sample1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF411FDB2982AD1F00050646 /* Sample2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF411FE52982AD1F00050646 /* Build configuration list for PBXNativeTarget "Sample2" */;
+			buildPhases = (
+				CF411FDC2982AD1F00050646 /* Sources */,
+				CF411FE02982AD1F00050646 /* Frameworks */,
+				CF411FE12982AD1F00050646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sample2;
+			productName = MultipleLoyalty;
+			productReference = CF411FE82982AD1F00050646 /* Sample2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +180,8 @@
 			projectRoot = "";
 			targets = (
 				CF411FB42982AAD600050646 /* MultipleLoyalty */,
+				CF411FCC2982AD1400050646 /* Sample1 */,
+				CF411FDB2982AD1F00050646 /* Sample2 */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +197,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF411FD22982AD1400050646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF411FD32982AD1400050646 /* LaunchScreen.storyboard in Resources */,
+				CF411FD42982AD1400050646 /* Assets.xcassets in Resources */,
+				CF411FD52982AD1400050646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF411FE12982AD1F00050646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF411FE22982AD1F00050646 /* LaunchScreen.storyboard in Resources */,
+				CF411FE32982AD1F00050646 /* Assets.xcassets in Resources */,
+				CF411FE42982AD1F00050646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +227,26 @@
 				CF411FBD2982AAD600050646 /* ViewController.swift in Sources */,
 				CF411FB92982AAD600050646 /* AppDelegate.swift in Sources */,
 				CF411FBB2982AAD600050646 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF411FCD2982AD1400050646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF411FCE2982AD1400050646 /* ViewController.swift in Sources */,
+				CF411FCF2982AD1400050646 /* AppDelegate.swift in Sources */,
+				CF411FD02982AD1400050646 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF411FDC2982AD1F00050646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF411FDD2982AD1F00050646 /* ViewController.swift in Sources */,
+				CF411FDE2982AD1F00050646 /* AppDelegate.swift in Sources */,
+				CF411FDF2982AD1F00050646 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.MultipleLoyalty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.sample1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,7 +434,119 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.sample1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF411FD72982AD1400050646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FX9FX9T59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipleLoyalty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.MultipleLoyalty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF411FD82982AD1400050646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FX9FX9T59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipleLoyalty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.MultipleLoyalty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF411FE62982AD1F00050646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FX9FX9T59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipleLoyalty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.sample2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF411FE72982AD1F00050646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7FX9FX9T59;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultipleLoyalty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebubekirsezer.sample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,6 +571,24 @@
 			buildConfigurations = (
 				CF411FCA2982AAD700050646 /* Debug */,
 				CF411FCB2982AAD700050646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF411FD62982AD1400050646 /* Build configuration list for PBXNativeTarget "Sample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF411FD72982AD1400050646 /* Debug */,
+				CF411FD82982AD1400050646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF411FE52982AD1F00050646 /* Build configuration list for PBXNativeTarget "Sample2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF411FE62982AD1F00050646 /* Debug */,
+				CF411FE72982AD1F00050646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
